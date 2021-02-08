@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"netology\"",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QueenArizona/Chaos-Organizer-backend.git"
+  },
+  "keywords": [
+    "hometask"
+  ],
+  "author": "Victoria Batnasunova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QueenArizona/Chaos-Organizer-backend.git"
+  },
+  "homepage": "https://github.com/QueenArizona/Chaos-Organizer-backend.git#readme",
+  "dependencies": {
+    "forever": "^3.0.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "uuid": "^8.3.0",
+    "ws": "^7.3.1"
+  }
+}
